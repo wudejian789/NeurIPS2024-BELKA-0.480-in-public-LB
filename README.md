@@ -7,7 +7,7 @@
 python train_BELKA.py --modelType FprMLP --EMA True            # for 7 fingerprint-based MLP model
 python train_BELKA.py --modelType DeepFM/DeepFM2 --EMA True    # for 4 fingerprint-based DeepFM model
 python train_BELKA.py --modelType PseLabAttn --EMA True        # for SMILES/ECFP/atom features-based RNN-Transformer model
-python train_BELKA.py --modelType GraphMLP/GraphMLP2 -EMA True # for SMILES/FCFP/atom features-based GNN model
+python train_BELKA.py --modelType GraphMLP/GraphMLP2 --EMA True# for SMILES/FCFP/atom features-based GNN model
 python train_BELKA_lgb.py                                      # for 7 fingerprint-based lgb model
 ```
 
