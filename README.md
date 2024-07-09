@@ -12,7 +12,9 @@ python train_BELKA_lgb.py                                      # for 7 fingerpri
 ```
 
 FprMLP/DeepFM/DeepFM2 are all based on the molecular fingerprint features only, and achieve 0.620~0.645 in validation(15-fold) and 0.432 in public LB;
+
 PseLabAttn/GraphMLP are feature-mixture model, achieving 0.650 in validation(15-fold) and 0.458/0.398 in public LB;
+
 lgb is fingerprint-based lightgbm model, achieving 0.615 in validation(15-fold) and 0.377 in public LB;
 
 ensemble all of them can lead to about 0.480 in public LB. 
